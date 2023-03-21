@@ -1,0 +1,13 @@
+.example-viewport {
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.table {
+  width: 100%;
+}
+
+::ng-deep .cdk-virtual-scroll-content-wrapper {
+  transform: translateY(0px) !important;
+}
